@@ -1,0 +1,31 @@
+﻿# Dotnet build output
+bin/
+obj/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# User secrets
+secrets.json
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# VS Code (jeśli korzystasz)
+.vscode/
+
+# Systemowe
+*.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Rider HTTP request history
+*.http
+
+# Git conflict/backup files
+*.orig
