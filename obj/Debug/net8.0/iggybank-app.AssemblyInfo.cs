@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("iggybank-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c4fbad03aaec490631d16be79beda45e266fefa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bcddb6f725aab8e85d0a37ab3a6780eebde0bcbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("iggybank-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("iggybank-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

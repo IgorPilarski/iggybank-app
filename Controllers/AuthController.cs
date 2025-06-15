@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using iggybank_app.Data;
 using iggybank_app.Models;
+using Microsoft.AspNetCore.Identity;
+
 
 namespace iggybank_app.Controllers
 {
@@ -23,9 +25,10 @@ namespace iggybank_app.Controllers
             {
                 return BadRequest("Username already exists");
             }
+            var hasher = new PasswordHasher<User>();
             var user = new User();
             user.Username = request.Username;
-            user.PasswordHash = request.PasswordHash;
+            user.PasswordHash = hasher.HashPassword(user, request.PasswordHash);
             _context.Users.Add(user);
             _context.SaveChanges();
             return Ok("User has been registered!");
