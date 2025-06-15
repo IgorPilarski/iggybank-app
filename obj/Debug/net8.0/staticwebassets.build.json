@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "SY5uTWSykgTyAlzwHbCR8q3afODZN5p2h3QV1dHFOU8=",
+  "Source": "iggybank-app",
+  "BasePath": "_content/iggybank-app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
