@@ -1,8 +1,14 @@
-﻿namespace iggybank_app.Models;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 public class User
 {
     public int Id { get; set; }
-    public string Username { get; set; } = null!; 
-    public string PasswordHash { get; set; } = null!; 
+
+    [Column("username")]
+    public string Username { get; set; } = null!;
+
+    [Column("password")]
+    public string Password { get; set; } = null!;
+    [Column("balance")]
+    public decimal Balance { get; set; } = 0;
 }
