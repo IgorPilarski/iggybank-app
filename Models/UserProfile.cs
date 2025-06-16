@@ -12,5 +12,7 @@ public class UserProfile
     public string Address2 { get; set; }
     public string State { get; set; }
     public string City { get; set; }
-    public string Zipcode  { get; set; }
+    public string Zipcode  { get; set; }    
+    public User User { get; set; } = null!;
+
 }
